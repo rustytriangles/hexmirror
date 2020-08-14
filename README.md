@@ -43,7 +43,7 @@ In parallel with that, we need to make up this camera module.
 Using the 1/4 inch walnut, make six of the [side pieces](images/camera_side.pdf) and one of the front pieces (on the right in [this drawing](images/camera_cover.pdf)).
 
 In addition, you need two copies of the internal pieces shown on the left in [that drawing](images/camera_cover.pdf). Those don't show, so you can use MDF. When you glue
-up the camera module, one of these internal pieces will go flush with the back, and the other will be inset from the front far enough to leave room for [the camera](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera).
+up the camera module, one of these internal pieces will go flush with the back, and the other will be inset from the front far enough to leave room for the camera.
 
 Once that has dried, mount the camera to the front internal piece and mount the Raspberry Pi to the back of the other. Feed the ribbon cable through the slots.
 
@@ -72,8 +72,17 @@ Finally, connect the data line of the string of LEDs to the GPIO pin 18 of the P
 
 
 ## Software
-The app that runs on the Raspberry Pi and drives the hexmirror.
 
-### Modules used
+### src
+The src directory contains the app that runs on the Raspberry Pi and drives the hexmirror. Just build this and add it
+to startup in /etc/rc.local
+
+#### Modules used
 * [raspicam](https://github.com/cedricve/raspicam) Library for controlling the camera.
 * [rpi_ws281x](https://github.com/jgarff/rpi_ws281x) Library for controlling the LEDs using the audio PWM driver.
+
+### testcases/first_sketch
+This directory contains a Rust application that I originally wrote to validate the idea.
+
+#### Crates used
+* [OpenCV](https://www.amazon.com/gp/product/B01AG923GI/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
