@@ -2,9 +2,9 @@
 This is a reactive object built from a camera and 36 LEDs.
 
 ## Bill of Materials
-* (Raspberry Pi Zero)[https://www.raspberrypi.org/products/raspberry-pi-zero/]
-* (Raspberry Pi Camera Module)[https://www.raspberrypi.org/products/camera-module-v2/]
-* (string of 36 WS2811 LEDs)[https://www.amazon.com/gp/product/B01AG923GI]
+* [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/)
+* [Raspberry Pi Camera Module](https://www.raspberrypi.org/products/camera-module-v2/)
+* [string of 36 WS2811 LEDs](https://www.amazon.com/gp/product/B01AG923GI)
 * 1 5V power brick
 * 1 sheet 16 ga. aluminum (I used 5052) roughly 2 feet square
 * about a foot and a half of 1/4 inch walnut
