@@ -56,7 +56,7 @@ The distance between this groove and the front of the side pieces should be the 
 
 Glue those around the outside of the backplate. I built a hexagonal jig for this so I could use wedges to hold the sides at the awkward angles.
 
-Insert the LEDs into the holes in the order specified in the backplate diagram.
+Insert the LEDs into the holes (@todo add diagram with hole numbers).
 
 ## Wiring
 The power brick drives both the Raspberry Pi and the LEDs.
