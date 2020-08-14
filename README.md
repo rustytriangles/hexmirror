@@ -14,7 +14,7 @@ This is a reactive object built from a camera and 36 LEDs.
 * wood glue and epoxy
 
 ## Build
-First, cut the aluminum in the shape shown in [this drawing](images/baseplate.svg). 
+First, cut the aluminum in the shape shown in [this drawing](images/baseplate.pdf). 
 I cut it using a router and template. That results in a nice, clean edge, but you need to be careful to do a series of shallow cuts.
 
 The result will look something like this:
