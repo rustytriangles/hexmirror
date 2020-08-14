@@ -1,4 +1,4 @@
-﻿# hexmirror
+# hexmirror
 This is a reactive object built from a camera and 36 LEDs.
 
 ## Bill of Materials
@@ -18,27 +18,27 @@ First, cut the aluminum in the shape shown in [this drawing](images/baseplate.sv
 I cut it using a router and template. That results in a nice, clean edge, but you need to be careful to do a series of shallow cuts.
 
 The result will look something like this:
-![backplate](images/hexmirror1.png)
+![backplate](images/hexmirror1.jpg)
 
 Next make up a bunch of Y shapes out of the MDF. Make them about 35mm tall. That's a little smaller than the camera module. This makes the
 pixels have a nice soft edge.
 
-![dividers](images/hexmirror2.png)
+![dividers](images/hexmirror2.jpg)
 
 Glue those onto the backplate using epoxy.
 
-![glueup](images/hexmirror3.png)
+![glueup](images/hexmirror3.jpg)
 
 Use flat white spray paint to paint that white.
 
-![paint](images/hexmirror4.png)
+![paint](images/hexmirror4.jpg)
 
 I added 2 small eyebolts to the back side at this point. At the end I ran some picture hanging wire between those. That way
 this backplate is taking the weight when it hangs on the wall.
 
 In parallel with that, we need to make up this camera module.
 
-![camera](images/hexmirror5.png)
+![camera](images/hexmirror5.jpg)
 
 Using the 1/4 inch walnut, make six of the [side pieces](images/camera_side.pdf) and one of the front pieces (on the right in [this drawing](images/camera_cover.pdf)).
 
